@@ -13,8 +13,8 @@ import org.testng.annotations.Test;
 
 public class Add {
 
-
-public static void main(String[] args) throws InterruptedException, IOException {
+@Test
+public static void Test() throws InterruptedException, IOException {
 	DesktopOptions option = new DesktopOptions();
 	  System.setProperty("webdriver.winium.desktop.driver","E:\\Winnium\\Winium.Desktop.Driver");
 	option.setApplicationPath("C:\\Windows\\System32\\calc.exe");
